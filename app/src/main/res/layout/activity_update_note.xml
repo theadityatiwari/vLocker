@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E8E8E8"
+    tools:context=".Activity.UpdateNoteActivity">
+
+<!--    <LinearLayout-->
+<!--        android:id="@+id/header_layout"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="120dp"-->
+<!--        android:background="@color/vblue"-->
+<!--        android:gravity="bottom"-->
+<!--        android:orientation="vertical">-->
+
+
+<!--        <ImageView-->
+<!--            android:layout_width="150dp"-->
+<!--            android:layout_height="70dp"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:background="@drawable/rectangle"-->
+<!--            android:gravity="center"-->
+<!--            app:srcCompat="@drawable/ic_notes"-->
+<!--            android:textColor="@color/white"-->
+<!--            app:tint="@color/white" />-->
+
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:layout_marginTop="5dp"-->
+<!--            android:layout_marginBottom="10dp"-->
+<!--            android:fontFamily="@font/product_sans_bold"-->
+<!--            android:gravity="center"-->
+<!--            android:text="Update Notes"-->
+<!--            android:textColor="@color/white" />-->
+
+
+<!--    </LinearLayout>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Title*"
+            android:fontFamily="@font/product_sans_bold"
+            android:textColor="@color/vblue"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            />
+
+        <EditText
+            android:id="@+id/ud_title_edt_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:layout_marginStart="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="15dp"
+            android:hint="Title.."
+            android:padding="15dp"
+            android:background="@drawable/edt_txt_bg"
+            android:fontFamily="@font/product_sans_regular"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Subtitle"
+            android:fontFamily="@font/product_sans_bold"
+            android:textColor="@color/vblue"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            />
+
+        <EditText
+            android:id="@+id/ud_subtitle_edt_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_marginStart="16dp"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/edt_txt_bg"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="15dp"
+            android:inputType="textPersonName"
+            android:hint="Subtitle.."
+            android:padding="15dp"
+            android:fontFamily="@font/product_sans_regular"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="12dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Priority"
+                android:textColor="@color/black"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textSize="17sp"
+                android:layout_gravity="center_vertical"
+                android:fontFamily="@font/product_sans_regular"/>
+
+            <ImageView
+                android:id="@+id/red_circle"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/red_shape"
+                android:layout_marginEnd="5dp" />
+            <ImageView
+                android:id="@+id/yellow_circle"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/yellow_shape"
+                android:layout_marginEnd="5dp" />
+            <ImageView
+                android:id="@+id/green_circle"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/green_shape"
+                android:layout_marginEnd="5dp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Notes*"
+            android:fontFamily="@font/product_sans_bold"
+            android:textColor="@color/vblue"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            />
+
+        <EditText
+            android:id="@+id/ud_note_edt_txt"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:ems="10"
+            android:layout_marginStart="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="16dp"
+            android:maxLines="10"
+            android:lines="8"
+            android:minLines="6"
+            android:inputType="textMultiLine"
+            android:hint="Note.."
+            android:scrollbars="vertical"
+            android:gravity="start"
+            android:background="@drawable/edt_txt_bg"
+            android:padding="15dp"
+            android:fontFamily="@font/product_sans_regular"/>
+
+    </LinearLayout>
+
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ud_done_notes_btn"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="24dp"
+        app:srcCompat="@drawable/ic_baseline_done_24"
+        app:tint="@color/white"
+        app:backgroundTint="@color/vblue"
+        app:fabSize="normal"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "76930533009",
+    "project_id": "vlocker-password-manager",
+    "storage_bucket": "vlocker-password-manager.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:76930533009:android:11d9da21866ec9e38ae130",
+        "android_client_info": {
+          "package_name": "com.adityatiwari.android.vlocker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "76930533009-98k4qnvrtbpnrsp8rdnbcod7v45jut8r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSqiqUYSIgzcYQL5Z4E6befq2Ja-IMvMI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "76930533009-98k4qnvrtbpnrsp8rdnbcod7v45jut8r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
